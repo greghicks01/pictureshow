@@ -1,0 +1,187 @@
+
+[InstallShield Wizard]
+iDate=1
+iTime=0
+Flag=0
+ISX.EXE Size=679936
+ISX.EXE Date=11:21:52AM  8/4/1999
+ISX.EXE Ver=2.1.2.62
+SETUP.EXE Size=45312
+SETUP.EXE Date=9:12:24AM  23/3/1999
+SETUP.EXE Ver=3.0.111.0
+SETUP.INS Size=81342
+SETUP.INS Date=11:26:40AM  8/4/1999
+SETUP.INS Ver=Not available
+_INST16.EX_ Size=81342
+_INST16.EX_ Date=11:26:40AM  8/4/1999
+_INST16.EX_ Ver=Not available
+_INST32I.EX_ Size=294079
+_INST32I.EX_ Date=9:12:22AM  23/3/1999
+_INST32I.EX_ Ver=Not available
+ISDEPEND.INI Size=6857
+ISDEPEND.INI Date=1:24:36PM  27/12/1999
+ISDEPEND.INI Ver=Not available
+SWDEPEND.INI Size=9711
+SWDEPEND.INI Date=1:24:40PM  27/12/1999
+SWDEPEND.INI Ver=Not available
+ICOMP.EXE Size=119808
+ICOMP.EXE Date=9:12:24AM  23/3/1999
+ICOMP.EXE Ver=3.00.062
+SPLIT.EXE Size=90624
+SPLIT.EXE Date=9:12:24AM  23/3/1999
+SPLIT.EXE Ver=3.00.060
+PACKLIST.EXE Size=87552
+PACKLIST.EXE Date=9:12:24AM  23/3/1999
+PACKLIST.EXE Ver=3.00.060
+Version=2.12
+DevTool=Borland C++Builder 5
+Platform=Win32
+DisksBuilt=1
+DisksDir=PICSHOW\144MB\
+TabsVisit=11111111100001111111
+LangNum=0
+LangDir=
+
+[VisualDesign]
+AppName=PICSHOW
+AppExe=[Program Files]\PICSHOW.exe
+AppExeFile=C:\Documents and Settings\Administrator\My Documents\Develop\BCB5\PICSHOW\executable\PICSHOW.exe
+Version=1.0.0.1
+Company=TELMU
+Title=C:\Documents and Settings\Administrator\My Documents\Develop\BCB5\PICSHOW\Images\splash\fluke.bmp
+TitleType=0
+BackgrndBmp=
+BackgrndAlign=4
+Backgrnd=1
+BackgrndColor=10
+Uninstall=1
+UninstallChecked=1
+Silent=1
+SmsMode=0
+
+[Types]
+Types=1
+Type1Components=1
+Type1Name=Complete
+Type1ComponentList=1 
+
+[Components]
+Components=1
+Component1Groups=1
+Component1Name=Application Files
+Component1Description=Application files needed to run the application
+Component1GroupList=1 
+
+[Groups]
+Groups=1
+Group1Size=129536
+Group1Files=1
+Group1Name=Program Files
+Group1Dir=<INSTALLDIR>
+Group1Update=0
+Group1TargetOS=-1
+Group1File1=C:\Documents and Settings\Administrator\My Documents\Develop\BCB5\PICSHOW\executable\PICSHOW.exe
+
+[Sequence]
+DestinationLocationDir=C:\METCAL
+DatabaseLocationDir=<INSTALLDIR>\data
+SelectProgramFolderName=Fluke Metrology Software
+WelcomeMessage=1
+WelcomeMessageFile=
+LicenseAgreement=1
+LicenseAgreementFile=C:\Program Files\InstallShield\InstallShield Express for C++Builder 5\Redist\license.txt
+DestinationLocation=1
+SelectProgramFolder=1
+BeginFileTransfer=1
+ProgressBar=1
+SetupComplete=1
+SetupCompleteExec=[Program Files]\PICSHOW.exe
+SetupCompleteExecParam=
+SetupCompleteExecReadme=
+
+[RegEntries]
+Reg1Path=HKEY_CLASSES_ROOT
+Reg1Val1Type=0
+Reg1Val1Name=(Default)
+Reg1Val1Data=(value not set)
+Reg1Vals=1
+Reg2Path=HKEY_CURRENT_USER
+Reg2Val1Type=0
+Reg2Val1Name=(Default)
+Reg2Val1Data=(value not set)
+Reg2Vals=1
+Reg3Path=HKEY_LOCAL_MACHINE
+Reg3Val1Type=0
+Reg3Val1Name=(Default)
+Reg3Val1Data=(value not set)
+Reg3Vals=1
+Reg4Path=HKEY_USERS
+Reg4Val1Type=0
+Reg4Val1Name=(Default)
+Reg4Val1Data=(value not set)
+Reg4Vals=1
+Reg5Path=HKEY_CURRENT_CONFIG
+Reg5Val1Type=0
+Reg5Val1Name=(Default)
+Reg5Val1Data=(value not set)
+Reg5Vals=1
+Reg6Path=HKEY_DYN_DATA
+Reg6Val1Type=0
+Reg6Val1Name=(Default)
+Reg6Val1Data=(value not set)
+Reg6Vals=1
+Reg7Path=HKEY_LOCAL_MACHINE\software
+Reg7Val1Type=0
+Reg7Val1Name=(Default)
+Reg7Val1Data=(value not set)
+Reg7Vals=1
+Reg8Path=HKEY_LOCAL_MACHINE\software\PICSHOW
+Reg8PathUninstall=1
+Reg8Val1Type=0
+Reg8Val1Name=(Default)
+Reg8Val1Data=(value not set)
+Reg8Val2Type=0
+Reg8Val2Name=Register
+Reg8Val2Data=Licensed to Fluke Corporation by Gregory P. Hicks
+Reg8Vals=2
+Regs=8
+
+[Registry]
+Reg1Path=HKEY_LOCAL_MACHINE\software
+Reg2Path=HKEY_LOCAL_MACHINE\software\PICSHOW
+Reg2PathUninstall=1
+Reg3Path=HKEY_LOCAL_MACHINE\software\PICSHOW
+Reg3PathUninstall=1
+Reg3ValName=Register
+Reg3ValType=0
+Reg3ValData=Licensed to Fluke Corporation by Gregory P. Hicks
+Regs=3
+
+[Icons]
+Icons=1
+Icon1Param=
+Icon1Cmd=[Program Files]\PICSHOW.exe
+Icon1Description=PICSHOW
+Icon1WorkingDir=[Program Files]
+Icon1IconFile=
+Icon1RealFile=C:\Documents and Settings\Administrator\My Documents\Develop\BCB5\PICSHOW\executable\PICSHOW.exe
+Icon1WhichIcon=0
+Icon1KeyVirtual=0
+Icon1KeyFlags=0
+Icon1StartMenu=0
+Icon1Window=0
+
+[Autoexec]
+PathDir=
+ShareLocks=
+ShareFiles=
+Command=
+
+[CopyToFloppy]
+DriveOption=Path
+DestinationPath=
+DestinationPathOneFile=
+Password=
+
+[Uninstall]
+UserUninstall=0
